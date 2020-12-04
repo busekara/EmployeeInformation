@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "employee-information-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeInformation/EmployeeInformationWebPart.js",
+          "manifest": "./src/webparts/employeeInformation/EmployeeInformationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmployeeInformationWebPartStrings": "lib/webparts/employeeInformation/loc/{locale}.js"
+  }
+}
