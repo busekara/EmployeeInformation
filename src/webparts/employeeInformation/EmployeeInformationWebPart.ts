@@ -5,9 +5,6 @@ import { SPHttpClient, SPHttpClientResponse } from '@microsoft/sp-http';
    description: string;
  }
 
-export interface IRestApiDemoWebPartProps {
-  description: string;
-}
 interface IEmployeeDetails {
   Title:string,
   Address: string;
