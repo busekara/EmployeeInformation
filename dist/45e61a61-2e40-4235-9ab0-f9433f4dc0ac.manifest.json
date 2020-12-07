@@ -1,0 +1,51 @@
+{
+  "id": "45e61a61-2e40-4235-9ab0-f9433f4dc0ac",
+  "alias": "EmployeeInformationWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "EmployeeInformation"
+      },
+      "description": {
+        "default": "EmployeeInformation description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "EmployeeInformation"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "employee-information-web-part",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "employee-information-web-part": {
+        "type": "path",
+        "path": "dist/employee-information-web-part.js"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.11.0",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "version": "1.11.0",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6"
+      }
+    }
+  }
+}
