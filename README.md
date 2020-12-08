@@ -6,7 +6,6 @@ This web part allows you to perform CRUD operations by connecting to the Sharepo
 You can find the running screenshots under the screenshot folder.
 
 https://github.com/busekara/EmployeeInformation/tree/main/Screenshot
-(https://github.com/busekara/EmployeeInformation/blob/main/Screenshot/EmployeeInfoWorkbench.jpg)
 
 
 ## Used SharePoint Framework Version
